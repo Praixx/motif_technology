@@ -1,0 +1,23 @@
+import TestimonialDetails from "./TestimonialDetails";
+
+function TestimonialCarousel() {
+  return (
+    <div className="bg-stone-50 p-4 w-4/5 md:w-2/5">
+      <div>
+        <h3 className="font-bold pt-4 pb-3 text-normal">The client was blown away by the quality</h3>
+        <p className="tracking-wide pb-7">
+          Motif technology delivered their work on time and within budget. The
+          client was blown away by the quality and the team's ability to capture
+          the original vision. Furthermore, the team demonstrated the utmost
+          commitment to fulfilling the requirements of the project and offering
+          creative solutions.
+        </p>
+          </div>
+          <div>
+              <TestimonialDetails />
+          </div>
+    </div>
+  );
+}
+
+export default TestimonialCarousel;

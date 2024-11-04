@@ -4,6 +4,7 @@ import MainSection from "../homepage.jsx/MainSection";
 import SoftwareConsultancy from "../homepage.jsx/SoftwareConsultancy";
 import SoftwareSection from "../homepage.jsx/SoftwareSection";
 import Sponsors from "../homepage.jsx/Sponsors";
+import TestimonialSection from "../homepage.jsx/TestimonialSection";
 import SpecialButton from "../ui/SpecialButton";
 
 function Homepage() {
@@ -17,6 +18,7 @@ function Homepage() {
         <CaseStudyHome />
         <SpecialButton />
         <SoftwareConsultancy />
+        <TestimonialSection />
       </div>
     </>
   );
