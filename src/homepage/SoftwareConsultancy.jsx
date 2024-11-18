@@ -5,7 +5,7 @@ import { FaDigitalOcean, FaLaptop } from "react-icons/fa";
 
 function SoftwareConsultancy() {
   return (
-    <div className="mt-16">
+    <div className="mt-32 md:mt-16">
       <div className="mb-5 flex flex-col-reverse items-center justify-center md:flex-row md:gap-10 md:ml-20 md:mr-16">
         <div className="flex items-center justify-center">
           <img src={SoftwareCon} alt="" className="w-4/5 md:w-full" />

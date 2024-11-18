@@ -1,10 +1,14 @@
-import CaseStudyHome from "../homepage.jsx/CaseStudyHome";
-import ExecutionSection from "../homepage.jsx/ExecutionSection";
-import MainSection from "../homepage.jsx/MainSection";
-import SoftwareConsultancy from "../homepage.jsx/SoftwareConsultancy";
-import SoftwareSection from "../homepage.jsx/SoftwareSection";
-import Sponsors from "../homepage.jsx/Sponsors";
-import TestimonialSection from "../homepage.jsx/TestimonialSection";
+import BlogSection from "../homepage/BlogSection";
+import CaseStudyHome from "../homepage/CaseStudyHome";
+import ExecutionSection from "../homepage/ExecutionSection";
+import FaqSection from "../homepage/FaqSection";
+import FooterSection from "../homepage/FooterSection";
+import MainSection from "../homepage/MainSection";
+import PodcastSection from "../homepage/PodcastSection";
+import SoftwareConsultancy from "../homepage/SoftwareConsultancy";
+import SoftwareSection from "../homepage/SoftwareSection";
+import Sponsors from "../homepage/Sponsors";
+import TestimonialSection from "../homepage/TestimonialSection";
 import SpecialButton from "../ui/SpecialButton";
 
 function Homepage() {
@@ -19,6 +23,10 @@ function Homepage() {
         <SpecialButton />
         <SoftwareConsultancy />
         <TestimonialSection />
+        <PodcastSection />
+        <FaqSection />
+        <BlogSection />
+        <FooterSection />
       </div>
     </>
   );
